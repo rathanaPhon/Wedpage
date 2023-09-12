@@ -2,10 +2,42 @@ const { app, BrowserWindow } = require('electron')
 const path = require('path')
 
  function onSignIn(googleUser) {
-  
-   var profile = googleUser.getBasicProfile();
-   console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-   console.log('Name: ' + profile.getName());
-   console.log('Image URL: ' + profile.getImageUrl());
-   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
+
+ app.signIn = function() {
+  // Get `GoogleAuth` instance
+  var auth2 = gapi.auth2.getAuthInstance();
+
+  // Sign-In
+  auth2.signIn()
+  .then(authenticateWithServer)
+  .then(changeProfile, function(error) {
+    app.fire('show-toast', {
+      text: 'Authentication failed.'
+    });
+  });
+};
+
+/**
+ * Trigger sign-out using Google Sign-In
+ */
+app.signOut = function() {
+  // Get `GoogleAuth` instance
+  var auth2 = gapi.auth2.getAuthInstance();
+
+  // Sign-Out
+  fetch('/signout', {
+    method: 'POST',
+    credentials: 'include'
+  }).then(function(resp) {
+    if (resp.status === 200) {
+      auth2.signOut()
+      .then(changeProfile);
+    } else {
+      throw "Couldn't sign out";
+    }
+  }).catch(function(error) {
+    app.fire('show-toast', {
+      text: error
+    });
+  });
+};
