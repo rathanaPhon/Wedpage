@@ -16,7 +16,6 @@ const path = require('path')
     });
   });
 };
-
 /**
  * Trigger sign-out using Google Sign-In
  */
