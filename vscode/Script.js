@@ -1,12 +1,12 @@
 
  function onSignIn(googleUser) {
 
-     function  signIn () {
+     function  onsignIn () {
   var auth2 = gapi.auth2.getAuthInstance();
 
- <script type="text/javascript">
+ <script type="text/javascript"/>
            
-        function signIn ()
+        function onsignIn ()
           {
            document.getElementById("signin").innerHTML.toggle("active");
            document.getElementById("ul").innerHTML.toggle("link");
