@@ -1,9 +1,7 @@
-const { app, BrowserWindow } = require('electron')
-const path = require('path')
 
  function onSignIn(googleUser) {
 
- app.signIn = function() {
+     function  signIn () {
   // Get `GoogleAuth` instance
   var auth2 = gapi.auth2.getAuthInstance();
 
@@ -19,7 +17,7 @@ const path = require('path')
 /**
  * Trigger sign-out using Google Sign-In
  */
-app.signOut = function() {
+   function signOut () {
   // Get `GoogleAuth` instance
   var auth2 = gapi.auth2.getAuthInstance();
 
