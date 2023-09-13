@@ -2,7 +2,6 @@
  function onSignIn(googleUser) {
 
      function  signIn () {
-  // Get `GoogleAuth` instance
   var auth2 = gapi.auth2.getAuthInstance();
 
   // Sign-In
