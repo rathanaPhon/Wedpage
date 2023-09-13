@@ -8,8 +8,8 @@
            
         function signIn ()
           {
-           document.getElementById("signin").classList.toggle("active");
-           document.getElementById("ul").classList.toggle("link");
+           document.getElementById("signin").innerHTML.toggle("active");
+           document.getElementById("ul").innerHTML.toggle("link");
        }
     }
 }
