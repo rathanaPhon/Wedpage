@@ -12,5 +12,8 @@
      auth1.signin().then(function () { 
        console.log('User signni.'); 
      }); 
-   } 
- </script>
+   function SigninClick()
+     {
+       document.getElementById("signIn").innerHTML.toggle("active");
+       document.getElementById("ul").innerHTML.toggle("link");
+      }
