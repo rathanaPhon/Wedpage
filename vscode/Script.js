@@ -7,7 +7,6 @@
    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present. 
  } 
  <button id onclick="signin();">Signin</a></button> 
- <script> 
    function signin() { 
      var auth2 = gapi.auth2.getAuthInstance(); 
      auth1.signin().then(function () { 
