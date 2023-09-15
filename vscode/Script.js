@@ -13,7 +13,7 @@
        console.log('User signni.'); 
      }); 
    function SigninClick()
-     {
+   {
        document.getElementById("signIn").innerHTML.toggle("active");
        document.getElementById("ul").innerHTML.toggle("link");
-      }
+    }
