@@ -11,7 +11,8 @@
      var auth2 = gapi.auth2.getAuthInstance(); 
      auth1.signin().then(function () { 
        console.log('User signni.'); 
-     }); 
+     });
+   }
    function SigninClick()
    {
        document.getElementById("signIn").innerHTML.toggle("active");
