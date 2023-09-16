@@ -10,7 +10,7 @@
    function signin() { 
      var auth2 = gapi.auth2.getAuthInstance(); 
      auth1.signin().then(function () { 
-       console.log('User signni.'); 
+       console.log('User signin.'); 
      });
    }
    function SigninClick()
