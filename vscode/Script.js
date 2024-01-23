@@ -1,4 +1,4 @@
-<script src="https://apis.google.com/js/platform.js" async defer></script> 
+<script src="https://apis.google.com/js/platform.js" async defer>
  function onSignIn(googleUser) { 
    var profile = googleUser.getBasicProfile(); 
    console.log('ID: ' + profile.getId());  
@@ -18,3 +18,4 @@
        document.getElementById("signIn").innerHTML.toggle("active");
        document.getElementById("ul").innerHTML.toggle("link");
     }
+</script> 
