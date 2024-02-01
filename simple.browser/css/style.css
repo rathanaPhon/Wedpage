@@ -10,8 +10,7 @@ img {
     background-image: -webkit-image-set("img/url.rathanaphon.png"),
 }
 footer {
-    background-color: blue;
     margin-top: auto;
-    border: #ffff;
+    background-color: blue;
     color: #ffff;
 }
