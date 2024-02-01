@@ -1,0 +1,17 @@
+body {
+    margin: 0%;
+    color: blue;
+    background-color: auto;
+}
+img {
+    width: 200px;
+    height: 350px;
+    box-shadow: inset;
+    background-image: -webkit-image-set("img/url.rathanaphon.png"),
+}
+footer {
+    background-color: blue;
+    margin-top: auto;
+    border: #ffff;
+    color: #ffff;
+}
