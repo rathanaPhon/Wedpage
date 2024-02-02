@@ -1,4 +1,4 @@
- <script src="https://rathanaphon.github.io/wedpage/">async defer></script> 
+ <script src="https://rathanaphon.github.io/wedpage/"></script> 
  function onSignIn(googleUser) { 
    var profile = googleUser.getBasicProfile(); 
    console.log('ID: ' + profile.getId());  
