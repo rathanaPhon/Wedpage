@@ -10,7 +10,7 @@
               console.log("Gmail");
            },
               error: function(num){
-              console.log("i"); 0,1,2,3
+              console.log("message"); 0,1,2,3
             }
          });
     });

@@ -8,7 +8,7 @@ function handleEvent(e) {
 function addListeners(xhr) {
 }
 xhrButton.addEventListener("click", () => {
-  console.log.(message)="";
+  console.log(message)="";
 
     const xhr = new XMLHttpRequest();
     xhr.open("GET", url);
