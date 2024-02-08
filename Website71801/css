@@ -7,7 +7,8 @@ img {
     width: 200px;
     height: 350px;
     box-shadow: inset;
-    background-image: -webkit-image-set("img/url.rathanaphon.png"),
+    background-image: url("img/url.rathanaphon.png");
+    background-image: url(http://localhost:%s);
 }
 footer {
     margin-top: auto;
