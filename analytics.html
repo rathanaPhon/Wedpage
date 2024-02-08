@@ -15,13 +15,21 @@
        gtag('config', 'id=GTM-KC66Q77R', { 'anonymize_ip': true });
      </script>
  </head>
-
  <body>
       <div id="Website"><p>Hello.analytics</p>
         <!-- Google Tag Manager (noscript) -->
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC66Q77R"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- End Google Tag Manager (noscript) -->
+   <script type="text/javascript">
+          function showAndroidToast(toast) {
+       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript"));               
+        Android.showToast(toast);
+              var pageTracker = _gat._getTracker("ID:UA-98172888-1");
+          pageTracker._trackPageview();
+       }
+     </script>
  </body>
 </html>
         
