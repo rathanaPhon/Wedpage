@@ -7,7 +7,7 @@ img {
     width: 200px;
     height: 350px;
     box-shadow: inset;
-    background-image: url("img/url.rathanaphon.png");
+    background-image: url("img/rathanaphon.jpg");
     background-image: url(http://localhost:%s);
 }
 footer {
