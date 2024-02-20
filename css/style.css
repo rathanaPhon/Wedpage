@@ -2,7 +2,14 @@ button {
    color: #04131c;
    height: 30px;
    background: #ff1515;
- }
+}
+img {
+    width: 200px;
+    height: 350px;
+    box-shadow: inset;
+    background-image: url("img/rathanaphon.jpg");
+    background-image: url(http://localhost:%s);
+}
  footer {
    color: #04131c;
    margin: 0px;  
