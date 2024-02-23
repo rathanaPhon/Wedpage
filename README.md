@@ -6,7 +6,6 @@ This package contains type definitions for prop-types (https://github.com/reactj
 
 # Details
 Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/prop-types.
-<img href="#"img/....jpg";
 
 ### Additional Details
  * Last updated: Mon, 20 Nov 2023 23:36:24 GMT
