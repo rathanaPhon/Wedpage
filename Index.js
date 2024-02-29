@@ -1,5 +1,5 @@
 
-function(doc) {
+function showreview(doc) {
 
 	var addEvent = 'addEventListener',
 	    type = 'gesturestart',

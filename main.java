@@ -1,6 +1,6 @@
 const xhrButton = document.querySelector(".xhr");
 const log = document.querySelector(".event-log");
-const url= "https://httpsrathanaphon.website/webpage/">
+const url= "https://httpsrathanaphon.website/wedpage/">
 function handleEvent(e) {
   log.content = `${log}
 }
