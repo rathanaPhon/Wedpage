@@ -1,11 +1,5 @@
 {
-  "license" : {
-    "type" : "ISC",
-    "url" : "https://opensource.org/licenses/ISC"
-}
 
-// Not valid metadata
-{
   "licenses" : [
     {
       "type": "MIT",
@@ -42,9 +36,9 @@
   "funding": [
     {
       "type": "individual",
-      "url": "http://example.com/donate"
+      "url": "http://rathanaphon.github.io",
     },
-    "http://example.com/donateAlso",
+    "http://rathanaphon.github.io",
     {
       "type": "patreon",
       "url": "https://www.patreon.com/my-account"
