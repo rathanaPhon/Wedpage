@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script type="text/javascript"/>
   $('[data-tgreviews="scroll"]').on('click', function(event) {
        event.preventDefault();
      $('#tab-tgr_reviews').prop('checked', true);
@@ -11,8 +11,9 @@
     top = $('form[name="tgreviews"]').offset().top;
    }
 } else {
-      top = $('.x-product-description').offset().top;
+      top = $('.x-mesage-description').offset().top;
  }
       $("html, body").animate({ scrollTop: top }, 1000);
+    }
  });
 </script>
