@@ -150,8 +150,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
           <div class="topsearch">
             <ul class="nav logged_out" style="margin-top:20px">
-              <li><a href="http://support.github.com/">SUPPORT</a></li>
-              <li><a href="http://github.com/">BACK TO GitHUB</a></li>
+                  <a href="http://support.github.com/">SUPPORT</a></li> |
+                  <a href="http://github.com/">BACK TO GitHUB</a></li> |
             </ul>
           </div>
         </div>
@@ -241,7 +241,8 @@ Address :
    </fieldset>
 </form>
 <div>
-  <main></main>  
+ <div class="page" id="pageid" align="center" >
+ <main></main>  
  <footer>
       <div class="footer-body">  
          <div style="color: rgb(0, 128, 128);">
@@ -268,12 +269,16 @@ Address :
     document.getElementById("hamMenu").classList.toggle("active");
     document.getElementById("ul").classList.toggle("link");
    }
+   </script>
+  <script type="text/JavaScript">
 map = new
 google.maps.Map(document.getElementById('map'), {
   center: {lat: -34.397, lng: 150.644},
   zoom: 8,
   mapId: 'MAP_ID:435480fb15ed43ff' // 
 });
+   <script type="text/JavaScript">
+   function showreview(auto){
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/gt.j type='text/javascript'%3E%3C/script%3E")
          );
