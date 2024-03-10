@@ -21,10 +21,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 90;
+  z-index: 80;
   position: fixed;
   top: 15px;
-  right: 20px rgba(0,0,0,0.30);
+  right: 20px;
 }
 .line1, .line2, .line3{
   background: black;
@@ -39,8 +39,16 @@ button {
   border:0%;
   padding-left: 20px;
   padding-right:20px;
-  color:#ffffff;
+  color:#fffff;
   bottom: right;
+}
+button_1 {
+  height:38px;
+  background:#e8491d;
+  border:0%;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
 }
 ul{
   margin:0;
@@ -52,7 +60,7 @@ button_1 {
   border:0;
   padding-left: 20px;
   padding-right:20px;
-  color:#ffffff;
+  color:#fffff;
 }
 .active .line1{
   transform: rotate(-45deg) translate(-5px, 5px);
@@ -91,7 +99,7 @@ ul li:hover{
   width:93%; 
 }
 li a{
-  color: ;
+  color: #fffff;
 }
 .grid-container {
    display: grid;
@@ -104,8 +112,8 @@ li a{
    border: 5px solid;
    padding: 10px;    
    text-align: center;
-   background: url();
-   box-shadow: 0 15px 30px rgba(0,0,0,0.30),
+   background: url("image/rathanaphon.jpg");
+   box-shadow: 0 15px 30px rgba(0,0,0,0.30);
    box-sizing: border-box;
    display: auto;
 }
@@ -124,13 +132,10 @@ footer-a {
 }
 .text{
   padding:1px 10px 1px 10px;
-  color:#ffff;
+  color:#fffff;
+  }
+p{
+    margin: auto;
 }
-img {
-    width: 200px;
-    height: 350px;
-    box-shadow: inset;
-    background-image: url("img/rathanaphon.jpg");
-    background-image: url(http://localhost:%s);
-}
+
 
