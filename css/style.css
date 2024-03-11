@@ -15,16 +15,16 @@ body {
 .ham {
   width: 40px;
   height: 40px;
-  background: White;
+  background: Gray rgba(0, 255, 0, 1.0);
   border-radius: 7px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 80;
+  z-index: 90;
   position: fixed;
   top: 15px;
-  right: 20px;
+  right: 20px rgba(0,0,0,0.30);
 }
 .line1, .line2, .line3{
   background: black;
@@ -35,20 +35,12 @@ body {
 }
 button {
   height:38px;
-  background: gray;
+  background: #4064ff;
   border:0%;
   padding-left: 20px;
   padding-right:20px;
-  color: black;
+  color:#ffff;
   bottom: right;
-}
-button_1 {
-  height:38px;
-  background:#e8491d;
-  border:0%;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#fffff;
 }
 ul{
   margin:0;
@@ -57,7 +49,7 @@ ul{
 button_1 {
   height:38px;
   background: #4064ff;
-  border:0;
+  border: boxes;
   padding-left: 20px;
   padding-right:20px;
   color:#ffff;
@@ -86,7 +78,7 @@ nav ul {
   justify-content: center;
 }
 ul h1{
-  color: #fff;
+  color: #fffff;
 }
 ul li{
   text-align:center;
@@ -99,13 +91,18 @@ ul li:hover{
   width:93%; 
 }
 li a{
-  color: #ffff;
+  color: Gray rgba(0, 255, 0, 1.0);
 }
 .grid-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 10px;
-}    
+}
+img {
+    width: 200px;
+    height: 350px;
+    box-shadow: inset;
+}
 .card > img { 
    width: 200px;
    height: 300px;
@@ -115,7 +112,7 @@ li a{
    background: url("image/rathanaphon.jpg");
    box-shadow: 0 15px 30px rgba(0,0,0,0.30);
    box-sizing: border-box;
-   display: grid;
+   display: auto;
 }
 footer {
   padding:20px;
@@ -133,6 +130,5 @@ footer-a {
 .text{
   padding:1px 10px 1px 10px;
   color:#ffff;
-  }
-
+}
 
