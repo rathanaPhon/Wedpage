@@ -70,7 +70,7 @@ nav ul {
   justify-content: center;
 }
 ul h1{
-  color: #ffff;
+  color: #fffff;
 }
 ul li{
   text-align:center;
@@ -81,6 +81,9 @@ ul li:hover{
   background: 26A69A;
   padding-left: 7%;
   width:93%; 
+}
+li a{
+  color: #fffff;
 }
 li a{
   color: Gray rgba(0, 255, 0, 1.0);
