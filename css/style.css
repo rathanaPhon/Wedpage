@@ -46,14 +46,6 @@ ul{
   margin:0;
   padding:0;
 }
-button_1 {
-  height:38px;
-  background: #4064ff;
-  border: boxes;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#ffff;
-}
 .active .line1{
   transform: rotate(-45deg) translate(-5px, 5px);
 }
@@ -78,7 +70,7 @@ nav ul {
   justify-content: center;
 }
 ul h1{
-  color: #fffff;
+  color: #ffff;
 }
 ul li{
   text-align:center;
