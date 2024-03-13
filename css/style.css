@@ -85,9 +85,6 @@ ul li:hover{
 li a{
   color: #fffff;
 }
-li a{
-  color: Gray rgba(0, 255, 0, 1.0);
-}
 .grid-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
