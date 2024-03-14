@@ -147,6 +147,37 @@ function hamMenuClick(){
   document.getElementById("ul").classList.toggle("link");
 }
 </script>
+ <script type="text/javascript">
+    var appURL = 'https://rathanaphon.github.io/';
+    function getSSOToken(json) {       
+        var jsonVal = JSON.parse(json);
+        if (jsonVal != null && jsonVal.code != null) {
+            resolveCode(jsonVal.code);
+        }
+    }
+    function resolveCode(code) {
+
+        $.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            url: appURL + "/sso/callback.aspx/ResolveSSO",
+            data: "{ 'code' :'" + code + "'}",
+            dataType: "json",
+            success: function (data) {
+                var sAction = data.d;
+                var sCulture = 'en';
+                if (sAction.indexOf('_') >= 0) {
+                    sCulture = sAction.split('_')[1];
+                    sAction = sAction.split('_')[0];
+                }
+                if (sAction == 'reload') {
+                    var reloadURL = window.location.href.replace('/en/', '/' + sCulture + '/');
+                    setTimeout(function () { window.location = reloadURL; }, 500);
+                    // location.reload(true);
+                }
+            }
+        });
+    }
 </bod>
 </html>
   
