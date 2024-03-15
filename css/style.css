@@ -90,7 +90,7 @@ li a{
    grid-template-columns: repeat(3, 1fr);
    gap: 10px;
 }
-img {
+log.img {
     width: 200px;
     height: 350px;
     box-shadow: inset;
@@ -110,7 +110,7 @@ footer {
   padding:20px;
   margin-top:20px;
   color: White;
-  background: #808080;
+  background: black;
   margin-bottom: 1%;  
 }
 footer-a {  
