@@ -49,12 +49,12 @@ header{
 #textToSearch{
   border:1px solid grey;
   padding:2px 5px;
-  height:40px;
+  height:30px;
   border-radius:2px;
 }
 button {
-  height:38px;
-  background: #4064ff;
+  height:30px;
+  background:rgb(250,250,250);
   border:0%;
   padding-left: 20px;
   padding-right:20px;
