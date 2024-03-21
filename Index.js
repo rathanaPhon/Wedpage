@@ -1,5 +1,5 @@
 
-function showreview(doc) {
+function showreview(auto) {
 
 	var addEvent = 'addEventListener',
 	    type = 'gesturestart',
@@ -7,7 +7,7 @@ function showreview(doc) {
 	    scales = [1, 1],
 	    meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
 
-	function fix() {
+	function showreview (auto) {
 		meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
 		doc.removeEventListener(type, fix, true);
 	}
