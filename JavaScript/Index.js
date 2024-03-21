@@ -16,6 +16,11 @@ function showreview(auto) {
 		fix();
 		scales = [.25, 1.6];
 		doc[addEvent](type, fix, true);
+		'use strict';
+
+var inspect = require('../');
+var obj = [1, 2, function f(n) { return n + 5; }, 4];
+console.log(inspect(obj));
    }
 };
     
