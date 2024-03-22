@@ -290,11 +290,18 @@ Address :
   }
   </script>
 <script type="text/JavaScript">
-map = new
-google.maps.Map(document.getElementById('map'), {
-  center: {lat: -., lng: .},
-  zoom: 8,
-  mapId: '435480fb15ed43ff' // 
+let map;
+
+async function initMap() {
+  const { Map } = await google.maps.importLibrary("maps");
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 159.644 },
+    zoom: 8,
+    mapId: '435480fb15ED43FF'
+  });
+ }
+initMap();
 });   
 </script>
    <script type="text/JavaScript">
