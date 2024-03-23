@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://rathanaphon.github.io./schemas/sitemap-image/1.2">
+  <url>
+    <loc>https://rathanaphon.github.io/wedpage/sample1.html</loc>
+    <image:image>
+      <image:loc>https://rathanaphon.github.io/wedpage/image.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://rathanaphon.github.io/wedpage/photo.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rathanaphon.github.io/wedpage/sample2.html</loc>
+    <image:image>
+      <image:loc>https://rathanaphon.github.io/wedpage/picture.jpg</image:loc>
+    </image:image>
+  </url>
+</urlset>
+ 
