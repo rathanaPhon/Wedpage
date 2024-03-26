@@ -1,0 +1,51 @@
+{
+  "origin": "https://rathanaphon.github.io.com",
+  "formFactor": "PHONE",
+  "metrics": [
+    "largest_contentful_paint",
+    "experimental_time_to_first_byte"
+  ]
+}
+{
+  "url": "https://rathanaphon.github.io.com/page",
+  "formFactor": "PHONE",
+  "metrics": [
+    "largest_contentful_paint",
+    "experimental_time_to_first_byte"
+  ]
+}
+{
+  "origin": "https://web.dev/",
+  "formFactor": "DESKTOP",
+  "metrics": [
+    "largest_contentful_paint"
+  ]
+}
+{
+  "record": {
+    "key": {
+      object (Key)
+    },
+    "metrics": [
+      string: {
+        object (Metric)
+      }
+    ]
+  },
+  "urlNormalizationDetails": {
+    object (UrlNormalization)
+  }
+}
+{
+  "histogramTimeseries": [
+    {
+      object (Bin)
+    }
+  ],
+  "percentilesTimeseries": {
+    object (Percentiles)
+  }
+}
+"fractionTimeseries": {
+  object (Fractions)
+}
