@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-km">
+<html lang="xmlns="http://www.sitemaps.com/schemas/sitemap/0.9xhtml":lang="en">
  <head>
     
-<meta charset="Utf-8">
-<urlset xmlns="http://www.sitemaps.com/schemas/sitemap/0.9xml" xml:lang="en" lang="en">
+<meta charset="Utf-8"> 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
@@ -286,17 +285,15 @@ Address :
     "url": "https://rathanaphon.github.io/wedpage/",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "http://rathanaphon.github.io/com/s/results?q={search_term_string}",
+      "target": "http://rathanaphon.github.io.com/s/results?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
   </script>
 <script type="text/JavaScript">
 let map;
-
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
-
   map = new Map(document.getElementById("map"), {
     center: { lat: -34.397, lng: 159.644 },
     zoom: 8,
