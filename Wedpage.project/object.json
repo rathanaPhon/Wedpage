@@ -21,31 +21,4 @@
     "largest_contentful_paint"
   ]
 }
-{
-  "record": {
-    "key": {
-      object (Key)
-    },
-    "metrics": [
-      string: {
-        object (Metric)
-      }
-    ]
-  },
-  "urlNormalizationDetails": {
-    object (UrlNormalization)
-  }
-}
-{
-  "histogramTimeseries": [
-    {
-      object (Bin)
-    }
-  ],
-  "percentilesTimeseries": {
-    object (Percentiles)
-  }
-}
-"fractionTimeseries": {
-  object (Fractions)
-}
+
