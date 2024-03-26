@@ -149,8 +149,8 @@
             <li><a class="grey-text text-lighten-3" href="#!"> Link 3 </a></li>
             <li><a class="grey-text text-lighten-3" href="#!"> Link 4 </a></li>
           </ul>
-            </div>  
-        </div> 
+        </div>  
+     </div> 
    </div>  
   </footer>  
 <script type="text/JavaScript">
@@ -160,7 +160,7 @@ function hamMenuClick(){
 }
 </script>
  <script type="text/javascript">
-    var appURL = 'https://rathanaphon.github.io/';
+    var appURL = 'https://rathanaphon.github.io/wedpage/';
     function getSSOToken(json) {       
         var json= JSON.parse(json);
         if (json!= null && json.code != null) {
@@ -172,7 +172,7 @@ function hamMenuClick(){
         $.ajax({
             type: "POST",
             contentType: "application/json; charset=utf-8",
-            url: appURL + "/sso/callback.aspx/ResolveSSO",
+            url: appURL + "/ssl/callback.aspx/ResolveSSO",
             data: "{ 'code' :'" + code + "'}",
             dataType: "json",
             success: function (data) {
@@ -186,11 +186,18 @@ function hamMenuClick(){
                     var reloadURL = window.location.href.replace('/en/', '/' + sCulture + '/');
                     setTimeout(function () { window.location = reloadURL; }, 500);
                     // location.reload(true);
+                  {
+                    "fractionTimeseries": {
+                    "desktop": { "fractions": [0.22, 0.22, 0.28, 0.32, 0.35, 0.37] },
+                    "phone": { "fractions": [0.76, 0.77, 0.60, 0.66, 0.65, 0.63] },
+                    "table": { "fractions": [0.02, 0.01, 0.02, 0.02, 0.0, 0.0] }
+                   }
                 }
             }
         });
     }
  </script>
+              
 </bod>
 </html>
   
