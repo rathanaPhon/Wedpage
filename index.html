@@ -280,15 +280,18 @@ Address :
   <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "Github",
-    "url": "https://rathanaphon.github.io/wedpage/",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "http://rathanaphon.github.io.com/s/results?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
-  }
+       {
+        "@type": "Place",
+        "name": "rathanaphon",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Sangkat Dangkor", "Khan Dangkor St5",
+          "addressLocality": "Phnom Penh",   
+          "postalCode": "120501",
+          "addressRegion": "Village.LayKong",
+          "addressCountry": "Cambodia",
+      }
+  }],
   </script>
 <script type="text/JavaScript">
 let map;
