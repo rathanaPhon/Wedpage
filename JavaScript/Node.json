@@ -1,0 +1,8 @@
+{
+  "main": "/path/to/bundled/script.js",
+  "output": "/path/to/write/the/generated/blob.blob",
+  "assets": {
+    "a.jpg": "/path/to/a.jpg",
+    "b.txt": "/path/to/b.txt"
+  }
+}
