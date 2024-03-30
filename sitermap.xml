@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9.xml"
     xmlns:image="http://rathanaphon.github.io/wedpage/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://rathanaphon.github.io/wedpage/sample1.html</loc>
+    <loc>https://rathanaphon.github.io/wedpage/sitemaps.xml</loc>
     <image:image>
       <image:loc>https://rathanaphon.github.io/wedpage/image.jpg</image:loc>
     </image:image>
