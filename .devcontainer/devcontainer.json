@@ -1,15 +1,15 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-      "name": "ghcr.io/nordcominc/devcontainer-features/android-sdk:1",
+     "name": "ghcr.io/nordcominc/devcontainer-features/android-sdk:1",
 	// Or use a Dockerfile /or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
     "url-file": "https:rathanaphon.github.io/wedpage/",
      "Domain": " http://rathanaphon.github.io.com/",
     "name": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
     "features": {
         "ghcr.io/devcontainers/features/go:1": {
-            "version": "1.0.2"
+            "version": "1.0.18"
         },
         "ghcr.io/devcontainers/features/docker-in-docker:1": {
             "version": "latest",
