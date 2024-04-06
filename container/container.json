@@ -1,0 +1,37 @@
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "my_project_chriscjs.org.com/my_repo": {"
+          "permissions": {
+            "issues": "write"
+          }
+        }
+      }
+    }
+  }
+}
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "my_project_chriscjs.org.com/my_repo": {
+          "permissions": {
+            "issues": "write"
+          }
+        }
+      }
+    }
+  }
+}
+{
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "my_project_chriscjs.org.com/my_repo": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  }
+}
