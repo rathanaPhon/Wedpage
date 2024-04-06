@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:19794491:android:9b9ba2ce17104d0c",
         "android_client_info":
-          "package_name": "rathanaphon.github.io"
+          "package_name": "rathanaphon.github.io.com"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "19794491-39j253bm66h5m7di7smurthlc07s2btm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "rathanaphon.github.io",
+            "package_name": "rathanaphon.github.io.com",
             "certificate_hash": "6d640f98eee14dd0998b7387470f0dfb4bc064a53f605ba2427786bc8462631e"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "19794491-kuq7unu52cngmd7qif6hsn39ddam86j6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "rathanaphon.github.io",
+            "package_name": "rathanaphon.github.io.com",
             "certificate_hash": "e54116d36e3cbba30be7f97a48a7863fef9b23bc"
           }
         },
@@ -37,7 +37,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDaScD-GAaAksJ5EkR5Q"
+          "current_key": "AIzaSyDaScDGAaAksJ5EkR5Q"
         }
       ],
       "services": {
