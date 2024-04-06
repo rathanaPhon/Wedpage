@@ -277,20 +277,51 @@ Address :
 <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/amplitudejs/5.3.2/amplitude.min.js">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/amplitudejs/5.3.2/amplitude.min.js" integrity="sha512-Q/0FAciD7lgeXgWUoL6/GuhRxRLP7KaAEag7TjKyx5hGXKsQc7Sf6dAL2Fg62Od8oXUYgyKNIBbwA2SwNSQi+A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>(function (){ () {=>{var h,a,k,p="failename.wedpag JavaScript API",c="wedpae.",l="importLibrary",q="__API__",m=document,b=window;b=b[c]||(b[c]={});var d=b.page||(b.pag={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+". message "+q);a.src=`https://rathanaphon.co
-m.${c}api.com/\/http/\www/\rathanaphon\/\/com/page/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" https/i.test(wi load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})Source :
-        ({key: ",AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg: "weekly"});</script>
+<script>(function (){ () {=>{var h,a,k,p="failename.wedpage JavaScript API",c="wedpage.",l="importLibrary",q="__API__",m=document,b=window;b=b[c]||(b[c]={});var d=b.page||(b.pag={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+". message "+q);a.src=`https:/\/\rathanaphon/\./\co
+m/\.${c}api.com/\/http/\www/\rathanaphon\/\/com/page/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" https/i.test(wi load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})Source :
+({key: ",AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg: "weekly"});</script>
   <script type="text/JavaScript">
     function hamMenuClick(){
     document.getElementById("hamMenu").classList.toggle("active");
     document.getElementById("ul").classList.toggle("link");
    }
  </script>
+ <script type="text/javascript">
+ new PerformanceObserver((entryList) => {
+  const entries = entryList.getEntries();
+
+  for (const entry of entries) {
+    // Some resources might have a responseStart value of 0 if they're being
+    // cached, or if a cross-origin resource is served without a
+    // Timing-Allow-Origin header set.
+    if (entry.responseStart > 0) {
+      console.log(`TTFB: ${entry.responseStart}`, entry.name);
+    }
+  }
+}).observe({
+  type: 'resource',
+  buffered: true
+});
+observer.observe({ type: "navigation", buffered: true });
+</script>
+ <script type="text/javascript">
+ // server.mjs
+import { createServer } from 'node:http';
+const server = createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello World!\n');
+});
+// starts a simple http server locally on port 3000
+server.listen(3000, '127.0.0.1', () => {
+  console.log('Listening on 127.0.0.1:3000');
+});
+// run with `node server.mjs`
+ </script>
 <script type="application/ld+json">
   {
    "@context": "https://schema.org/",
     "@type": "Organization",
-    "name": "Github.io",
+    "name": "Github.com",
     "domine": "rathanaphon.github.io.com",
     "logo": "https://rathanaphon.github.io/wedpage/img.jpg",
     "url": "https://rathanaphon.github.io/wedpage/",
@@ -306,11 +337,11 @@ m.${c}api.com/\/http/\www/\rathanaphon\/\/com/page/api/js?`+e;d[q]=f;a.onerror=(
   "version": "3.2.37",
   "repository": {
     "type": "git",
-    "url": "http://www.rathanaphon.github.io/Wedpage/",
+    "url": "http://rathanaphon.github.io/Wedpage/",
   },
   "autoupdate": {
     "source": "npm",
-    "target": "vue",
+    "target": "nvm",
     "filepag": [
       {
         "basePath": "dist",
