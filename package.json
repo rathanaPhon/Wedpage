@@ -1,5 +1,5 @@
 {
-   "version": "10.5.0",
+  "version": "10.5.0",
   "name": "npm",
   "description": "a package manager for JavaScript",
   "workspaces": [
@@ -23,7 +23,7 @@
     "package manager",
     "package.json"
   ],
-  "homepage": "https://chriscjs.npmjs.com/",
+  "homepage": "https://duc.npmjs.com/",
   "author": "GitHub Inc.",
   "repository": {
     "type": "git",
