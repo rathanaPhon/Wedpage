@@ -2,7 +2,7 @@
   "customizations": {
     "codespaces": {
       "repositories": {
-        "my_project_wedpage/my_repo": {
+        "my_wedpage_project/my_repo": {
           "permissions": {
             "issues": "write"
           }
@@ -15,7 +15,7 @@
   "customizations": {
     "codespaces": {
       "repositories": {
-        "my_project_wedpage/my_repo": {
+        "my_wedpage_project/my_repo": {
           "permissions": {
             "issues": "write"
           }
@@ -28,7 +28,7 @@
   "customizations": {
     "codespaces": {
       "repositories": {
-        "my_project_wedpage/my_repo": {
+        "my_wedpage_project/my_repo": {
           "permissions": "write-all"
         }
       }
