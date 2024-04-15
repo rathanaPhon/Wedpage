@@ -1,7 +1,7 @@
 {
   "project_info": {
     "project_id": "1711487294620",
-    "github_url": "https://rathanaphon.github.io/wedpage/",
+    "github_url": "https://rathanaphon.github.io/webpage/",
     "project_name": "Wedpage-my.project",
     "storage_bucket": "Wedpage-project.appspot.com"
   },
@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1711487294620android:9b9ba2ce17104d0c",
         "android_client_info":
-          "package_name": "https://rathanaphongithub.io/",
+          "package_name": "www.rathanaphon.github.io/",
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "1711487294620-39j253bm66h5m7di7smurthlc07s2btm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "https://rathanaphongithub.io/",
+            "package_name": "www.rathanaphon.github.io/",
             "certificate_hash": "6d640f98eee14dd0998b7387470f0dfb4bc064a53f605ba2427786bc8462631e"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "1711487294620-kuq7unu52cngmd7qif6hsn39ddam86j6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "https://rathanaphongithub.io/",
+            "package_name": "www.rathanaphon.github.io/",
             "certificate_hash": "e54116d36e3cbba30be7f97a48a7863fef9b23bc"
           }
         },
