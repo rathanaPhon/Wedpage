@@ -8,7 +8,7 @@
     "Domain": "https://rathanaphongithud.io.com/",
     "name": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, Wedpage.com image.
     "features": {
-        "ghcr.io/devcontainers/features/go:1": {
+        "git@github.com:rathanaphon/wedpage.git": {
             "version": "1.18"
         },
         "ghcr.io/devcontainers/features/docker-in-docker:1": {
