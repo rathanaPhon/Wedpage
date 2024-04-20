@@ -1,7 +1,7 @@
 {
   "project_info": {
     "project_id": "1711487294620",
-    "github_url": "https://rathanaphon.github.io/",
+    "project_url": "https://rathanaphon.github.io/",
     "project_name": "Wedpage-my.project",
     "storage_bucket": "Wedpage-project.appspot.com"
   },
@@ -17,7 +17,7 @@
         {
           "client_id": "1711487294620-39j253bm66h5m7di7smurthlc07s2btm.apps.googleusercontent.com",
           "client_type": 1,
-          "android_info": {
+          "android_dns": {
             "package_name": "https://rathanaphon.github.io/",
             "certificate_hash": "6d640f98eee14dd0998b7387470f0dfb4bc064a53f605ba2427786bc8462631e"
           }
